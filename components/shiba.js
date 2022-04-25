@@ -26,6 +26,7 @@ const Shiba = () => {
 
     const handleWindowResize = useCallback(() => {
         const {current: container} = refContainer
+
         if(container && renderer) {
             const scW = container.clientWidth
             const scH = container.clientHeight
@@ -34,7 +35,6 @@ const Shiba = () => {
         }
     }, [renderer])
 
-    /* eslint-disable react-hooks/exhaustive-deps */
     useEffect(() => {
         const {current: container} = refContainer
         if (container && !renderer) {
@@ -106,8 +106,7 @@ const Shiba = () => {
                 cancelAnimationFrame(req)
                 renderer.dispose()
             }
-            }
-
+        }
     }, [])
 
     useEffect(() => {
@@ -117,13 +116,15 @@ const Shiba = () => {
         }
     }, [renderer, handleWindowResize])
 
+
+
     return (
         <Box
             ref={refContainer}
-            className="laptop"
+            className="shiba"
             m="auto"
             at={['-20px', '-60px', '-120px']}
-            mb={['-40px', '140px', '-200px']}
+            mb={['-40px', '-140px', '-200px']}
             w={[280, 480, 640]}
             h={[280, 480, 640]}
             position="relative"
