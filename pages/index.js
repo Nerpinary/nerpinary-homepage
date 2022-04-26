@@ -4,8 +4,7 @@ import {
     Heading,
     Image,
     useColorModeValue,
-    Button,
-    List
+    Button
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Section from "../components/section";
