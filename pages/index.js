@@ -5,9 +5,7 @@ import {
     Image,
     useColorModeValue,
     Button,
-    List,
-    ListItem,
-    Link, Icon
+    List
 } from "@chakra-ui/react";
 import NextLink from "next/link";
 import Section from "../components/section";
@@ -15,7 +13,6 @@ import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import {ChevronRightIcon} from "@chakra-ui/icons";
 import {BioSection, BioYear} from "../components/bio";
-// import {IoLogoInstagram, IoLogoGithub, IoLogoYoutube} from "react-icons/all";
 
 const Page = () => {
     return (
@@ -94,29 +91,6 @@ const Page = () => {
 
             <Section delay={0.3}>
                 <Heading as="h3" variant="section-title">On the web</Heading>
-                <List>
-                    {/*<ListItem>*/}
-                    {/*    <Link href="https://github.com/nerpinary" target="_blank">*/}
-                    {/*        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>*/}
-                    {/*            @nerpinary*/}
-                    {/*        </Button>*/}
-                    {/*    </Link>*/}
-                    {/*</ListItem>*/}
-                    {/*<ListItem>*/}
-                    {/*    <Link href="https://www.instagram.com/musicfail/" target="_blank">*/}
-                    {/*        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>*/}
-                    {/*            @musicfail*/}
-                    {/*        </Button>*/}
-                    {/*    </Link>*/}
-                    {/*</ListItem>*/}
-                    {/*<ListItem>*/}
-                    {/*    <Link href="https://www.youtube.com/channel/UC_455xYAbwAVr5PWgK0svXA" target="_blank">*/}
-                    {/*        <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoYoutube} />}>*/}
-                    {/*            My Youtube channel*/}
-                    {/*        </Button>*/}
-                    {/*    </Link>*/}
-                    {/*</ListItem>*/}
-                </List>
             </Section>
         </Container>
         </Layout>
