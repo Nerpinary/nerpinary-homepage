@@ -43,7 +43,7 @@ const Page = () => {
             </Box>
             <Section delay={0.1}>
                 <Heading as="h3" variant="section-title">
-                    Work
+                    About me
                 </Heading>
                 <Paragraph>
                     Maxim is a front-end developer based in Saint-Petersburg. He has an interest in studying new development technologies, the practices of current top developers and the desire to surpass himself
@@ -75,7 +75,7 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2021 to present</BioYear>
-                    Works
+                    Projects
                 </BioSection>
             </Section>
 
