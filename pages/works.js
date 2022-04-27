@@ -4,6 +4,7 @@ import {WorkGridItem} from "../components/grid-item";
 
 
 import thumbEisenhof from "../public/images/Eisenhof.png"
+import thumbFinHelp from "../public/images/FinHelp.png"
 const Works = () => {
     return (
         <Container>
@@ -15,6 +16,11 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id="eisenhof" title="Eisenhof" thumbnail={thumbEisenhof}>
                         Eisenhof - online store of home appliances
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="financeHelper" title="Finance Helper" thumbnail={thumbFinHelp}>
+                        Finance Helper - convenient calculations of savings and expenses
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
