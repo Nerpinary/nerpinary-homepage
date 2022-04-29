@@ -9,10 +9,10 @@ const Work = () => {
         <Layout>
             <Container>
                 <Title>
-                    Finance Helper <Badge>2022</Badge>
+                    Finance Assistant <Badge>2022</Badge>
                 </Title>
                 <P>
-                    Finance Helper - convenient calculations of savings and expenses
+                    Finance Assistant - convenient calculations of savings and expenses
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>

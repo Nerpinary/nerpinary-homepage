@@ -46,7 +46,9 @@ const Page = () => {
                     About me
                 </Heading>
                 <Paragraph>
-                    Maxim is a front-end developer based in Saint-Petersburg. He has an interest in studying new development technologies, the practices of current top developers and the desire to surpass himself
+                    Hi there, welcome to my app!<br />
+                    I&apos;m Max. Front-end developer based in Saint-Petersburg.<br />
+                    IT is my entire life and I’m glad to share with you some of my projects. I’m constantly studying new technologies and practices of top developers to expand my stack. But the main thing that drives me forward to learn something new is the desire to surpass myself.
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works" passHref>
@@ -66,12 +68,20 @@ const Page = () => {
                     Born in Ulan-Ude, Russia.
                 </BioSection>
                 <BioSection>
-                    <BioYear>2011</BioYear>
-                    Graduated from high school in Irkutsk, Russia.
+                    <BioYear>2005</BioYear>
+                    First steps in IT – studying QuickBasic.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2009</BioYear>
+                    First projects on HTML, CSS.
+                </BioSection>
+                <BioSection>
+                    <BioYear>2013</BioYear>
+                    Studying Information Security at Irkutsk State University.
                 </BioSection>
                 <BioSection>
                     <BioYear>2021</BioYear>
-                    Learning the javascript programming language. In August of the same year already found a job as a front-end developer
+                    Studying JavaScript, Git, React, Webpack, PHP. First job as a full-stack developer in Saint-Petersburg.
                 </BioSection>
                 <BioSection>
                     <BioYear>2021 to present</BioYear>
