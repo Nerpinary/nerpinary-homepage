@@ -23,9 +23,11 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React, TypeScript, NextJS</span>
+                        <span>React, TypeS
+                            cript, NextJS</span>
                     </ListItem>
                 </List>
+                <WorkImage src="/images/FinHelp.webp" alt="Finance Helper" />
             </Container>
         </Layout>
     )
