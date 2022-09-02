@@ -23,11 +23,9 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React Native, NextJS</span>
+                        <span>React, TypeScript, NextJS</span>
                     </ListItem>
                 </List>
-
-                <WorkImage src="/images/FinHelp.png" alt="Eisenhof" />
             </Container>
         </Layout>
     )
